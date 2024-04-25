@@ -13,7 +13,6 @@ function creat(iu) {
     borders,
     cca3,
   } = iu;
-  console.log(borders);
   ui.innerHTML = `
   <div class="container">
   <a class="btn btn-primary" href="./index.html">back home</a>
@@ -41,9 +40,9 @@ function creat(iu) {
       </div>
     </div>
     <div class="divbn">
-      <a href="">${"borders"}</a>
-      <a href="">b</a>
-      <a href="">b</a>
+      <a href="">${borders[0]}</a>
+      <a href="">${borders[1]}</a>
+      <a href="">${borders[2]}</a>
     </div>
   </div>
 </div>
