@@ -135,7 +135,7 @@ button.addEventListener("submit", (e) => {
         } else {
           articel7.innerHTML = "";
           eror7.classList.remove("hidden");
-          articel7.innerHTML = `${select.value}-bu qitada siz izlagan davlat mavjud emas mavjud emas`;
+          articel7.innerHTML = `<h3>${select.value}-bu qitada siz izlagan davlat mavjud emas mavjud emas</h3>`;
           select.addEventListener("change", () => {
             eror7.classList.add("hiddin");
           });

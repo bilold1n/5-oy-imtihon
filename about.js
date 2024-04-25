@@ -39,11 +39,6 @@ function creat(iu) {
         <p><span class="span">Languages:</span>${languages}</p>
       </div>
     </div>
-    <div class="divbn">
-      <a href="">${borders[0]}</a>
-      <a href="">${borders[1]}</a>
-      <a href="">${borders[2]}</a>
-    </div>
   </div>
 </div>
       `;
