@@ -352,3 +352,9 @@ header {
   margin-right: auto;
   margin-left: auto;
 }
+.bt7 {
+  display: inline;
+  margin: 0;
+  width: 150px;
+  text-align: center;
+}

@@ -143,7 +143,9 @@ button.addEventListener("submit", (e) => {
       })
       .catch((eror) => {
         eror7.classList.remove("hidden");
-        articel7.innerHTML = `<h3 class="eror-title";>Bu davlat mavjud emas</h3>`;
+        articel7.innerHTML = `<h3 class="eror-title";>Bu davlat mavjud emas</h3>
+        <a class="btn btn-primary bt7" href="./index.html">back home</a>
+        `;
         loader.classList.add("hidden");
       });
   }
